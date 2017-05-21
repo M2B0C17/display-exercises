@@ -1,0 +1,21 @@
+/* HTML 3 */
+.laborat3, .transform3, .es3{
+  font-family: 'Dosis', sans-serif;  /*colocamos la tipografía que queremos que tenga nuestro html 3*/
+  display: inline-block;
+}
+
+.laborat3, .transform3{
+	background-color: yellow;
+	padding: 10px 20px 10px 20px;
+  margin: 10px;
+}
+
+.es3{
+	background-color: red;
+  padding: 10px 20px 10px 20px;
+
+}
+
+.transform3{
+  text-transform: uppercase; /* con la propiedad uppercase, definimos que nuestra palabra se coloque en mayúscula */
+}

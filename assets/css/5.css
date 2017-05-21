@@ -1,0 +1,54 @@
+/* HTML 5 */
+span{
+	text-align: center;
+}
+
+.uno{
+	background-color: #5D946D;
+	width: 30px;
+	height: 30px;
+	display: block;
+	padding: 55px;
+	margin: 20px 0 20px 0px;
+}
+.siete{
+	background-color: #B3BE9A;
+	width: 30px;
+	height: 30px;
+  display: block;
+	padding: 55px;
+	margin: 10px 0 20px 0px;
+
+}
+
+.dos, .tres, .cuatro{
+	background-color: #67AF9A;
+	padding: 40px;
+	width: 60px;
+	height: 60px;
+  display: inline-block;
+}
+
+.dos, .tres{
+  margin: 10px 10px 5px 0;
+}
+
+.cuatro{
+  margin: 10px 0px 5px 0;
+}
+
+/* fondo de 2, 3 y 4 */
+.img{
+  background-color: #BACDAE;
+  margin: 0 770px 0 0;
+  padding: 10px;
+}
+
+.cinco, .seis{
+	background-color: #373639;
+	padding: 40px;
+	width: 60px;
+	height: 60px;
+  display: inline-block;
+  margin: 10px 10px 5px 0;
+}

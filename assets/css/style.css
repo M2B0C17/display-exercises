@@ -1,0 +1,223 @@
+body{
+  font-family: 'Raleway', sans-serif;
+  margin: 0; /* para que nuestro navbar se ajuste al borde del navegador */
+  background-color: #9B96A3;
+}
+
+/* Menú */
+
+header.enlaces ul{
+  list-style: none; /* para sacarle el estilo predefinido con el punto que tienen las listas */
+  margin: 0; /* cero margen */
+  padding: 0px; /* relleno : 0 */
+  overflow: hidden; /* overflow = Controla el comportamiento de los contenidos que no caben en su elemento contenedor. Hidden = oculto o ocultar. */
+  background-color: #010000; /* color de fondo */
+}
+
+header.enlaces ul li{
+  display: inline-block; /* Esta propiedad especifica el tipo de caja de representación que se usará para un elemento. Bloque en linea */
+}
+
+header.enlaces ul li a{
+  display: inline-block;
+  color: white; /* color al texto */
+  text-align: center;
+  padding: 26px;
+  text-decoration: none; /* le quitamos el sibrayado por defecto que tienen los enlaces */
+}
+
+/* Con hover logramos que cuando el cursor pase por el enlace, este cambie de color en su fondo y texto */
+header.enlaces li a:hover{
+  background-color: #9B96A3;
+  color: white;
+}
+
+/* Fotos */
+div .bookbuilding{
+	background-size: cover;
+	background-position: center;
+	padding: 5px 15px 0 15px; /* margen interno de la caja que contiene las iamgenes */
+  display: inline-block; /* para que los elementos (imagenes), se coloquen uno al lado del otro */
+}
+
+/* X */
+span{
+  font-size: 20px;
+  font-weight: bolder;
+  width: 190px;
+  color: black;
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 0 30px 0 30px;
+  margin: 0;
+}
+
+.eventX{
+  text-decoration: none;
+}
+
+/* fotos tramo 1 */
+
+#imag1{
+    background: url('../img/fot1.jpg');
+}
+
+#imag2{
+    background: url('../img/fot2.jpg');
+}
+
+#imag3{
+    background: url('../img/fot3.jpg');
+}
+
+#imag4{
+    background: url('../img/fot4.jpg');
+}
+
+#fotosEncua .bookbuilding #imag1, #fotosEncua .bookbuilding #imag2, #fotosEncua .bookbuilding #imag3, #fotosEncua .bookbuilding #imag4{
+  height: 200px; /* alto */
+  width: 200px; /* ancho */
+  background-size: cover; /* especifica el tamaño de fondo de la imagen */
+  background-position: center; /* especifica la posicion del fondo */
+  padding: 5px 30px 5px 30px;
+  border-radius: 5px;
+  float: left;
+  margin: 22px; /* espaciado de cajas */
+}
+
+/* fotos tramo 2 */
+div .bookbuilding2{
+	background-size: cover;
+	padding: 0 15px 0 15px; /* margen interno de la caja que contiene las iamgenes */
+  display: inline-block; /* para que los elementos (imagenes), se coloquen uno al lado del otro */
+  padding: 0 17px;
+}
+
+#imag5{
+    background: url('../img/fot5.jpg');
+}
+
+#imag6{
+    background: url('../img/fot6.jpg');
+}
+
+#fotosEncua .bookbuilding2 #imag5, #fotosEncua .bookbuilding2 #imag6{
+  height: 200px; /* alto */
+  width: 200px; /* ancho */
+  background-size: cover; /* especifica el tamaño de fondo de la imagen */
+  background-position: center; /* especifica la posicion del fondo */
+  padding: 5px 30px 5px 30px;
+  border-radius: 5px;
+  float: left;
+  margin: 22px; /* espaciado de cajas */
+}
+
+/* fotos tramo 3 */
+div .bookbuilding3{
+	background-size: cover;
+	background-position: center;
+	padding: 0 15px 0 15px; /* margen interno de la caja que contiene las iamgenes */
+  display: inline-block; /* para que los elementos (imagenes), se coloquen uno al lado del otro */
+}
+
+#imag7{
+    background: url('../img/fot7.jpg');
+}
+
+#imag8{
+    background: url('../img/fot8.jpg');
+}
+
+#imag9{
+    background: url('../img/fot9.jpg');
+}
+
+#imag10{
+    background: url('../img/fot10.jpg');
+}
+
+#fotosEncua .bookbuilding3 #imag7, #fotosEncua .bookbuilding3 #imag8, #fotosEncua .bookbuilding3 #imag9, #fotosEncua .bookbuilding3 #imag10{
+  height: 200px; /* alto */
+  width: 200px; /* ancho */
+  background-size: cover; /* especifica el tamaño de fondo de la imagen */
+  background-position: center; /* especifica la posicion del fondo */
+  padding: 5px 30px 5px 30px;
+  border-radius: 5px;
+  float: left;
+  margin: 22px; /* espaciado de cajas */
+}
+
+/* menù 2 */
+.enlaces2 {
+    text-align: center;
+    /*display: flex; - caja flexible (adapatabilidad) */
+    /*flex-direction: row-reverse; - flex-direction nos permite decirle a las cajas, la direccion donde queremos que este. row-reverse = fila que invertida de su posicion original */
+    padding: 0 200px;
+}
+
+.enlaces2 ul{
+  overflow: hidden; /* overflow = Controla el comportamiento de los contenidos que no caben en su elemento contenedor. Hidden = oculto o ocultar. */
+  background-color: #010000; /* color de fondo */
+  display: inline-block;
+}
+
+.enlaces2 ul li{
+  display: inline-block; /* Esta propiedad especifica el tipo de caja de representación que se usará para un elemento. Bloque en linea */
+  margin: 0 45px 0 45px;
+}
+
+.enlaces2 ul li a {
+  display: inline-block;
+  color: white; /* color al texto */
+  text-align: center;
+  padding: 20px;
+  text-decoration: none; /* le quitamos el sibrayado por defecto que tienen los enlaces */
+}
+
+/* Con hover logramos que cuando el cursor pase por el enlace, este cambie de color en su fondo y texto */
+.enlaces2 li a:hover{
+  background-color: #9B96A3;
+  color: white;
+}
+
+/* texto1 */
+.textosEnColumnas{ /* usamos prefijos especiales para la realización de las columnas */
+  -webkit-column-count: 2; /* define la cantidad de columnas que se quieren colocar */
+  -webkit-column-gap: 10px; /* Nos permite definir el espacio entre columnas */
+  -webkit-column-rule: 1px dotted white; /* linea dotted (puntitos) de separación entre columnas */
+  display: inline-block;
+  margin: 20px 0 30px 215px;
+}
+
+.textulio{
+  font-size: 15px;
+  font-weight: 600;
+  color: #393845;
+  line-height: 17px; /* interlineado de texto */
+  word-spacing: 5px; /* espacio entre palabras */
+  text-align: justify;
+}
+
+.texUno{
+  padding: 10px 30px 0 0;
+  width: 300px;
+  margin: 40px;
+}
+
+.texDos{
+  padding: 10px;
+  width: 300px;
+  margin: 40px;
+  float: left;
+}
+
+/* Footer */
+footer{
+  text-align: center;
+  border-color: blue;
+  padding: 100px 0 30px 0;
+  display: block;
+  color: white;
+  font-weight: lighter;
+  font-size: 15px;
+}

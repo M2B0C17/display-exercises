@@ -1,0 +1,26 @@
+/* HTML 4 */
+.laborat4, .transform4, .es4{
+    /*colocamos la tipografía que queremos que tenga nuestro html 4*/
+}
+
+.laborat4, .transform4{
+	width: 210px;
+	height: 70px;
+	display: inline-block;
+	background-color: yellow;
+	padding:5px;
+	margin: 5px;
+}
+
+.es4{
+	display: inline-block;
+	background-color: red;
+	padding:5px;
+	width: 180px;
+	height: 70px;
+	margin: 5px;
+}
+
+.transform4{
+  text-transform: uppercase; /* con la propiedad uppercase, definimos que nuestra palabra se coloque en mayúscula */
+}

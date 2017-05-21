@@ -1,0 +1,29 @@
+/* HTML 2 */
+
+.laborat2, .transform2, .es2{
+  font-family: 'Poppins', sans-serif; /* colocamos la tipografía que queremos que tenga nuestro html 2 */
+}
+
+.laborat2, .transform2{
+	display: block;
+	width: 200px; /* ancho */
+	background-color: yellow;
+	padding-bottom: 40px;
+	padding-left: 5px;
+	padding-top: 5px;
+	margin: 15px;
+}
+
+.es2{
+	display: block;
+	width: 200px;
+	background-color: red;
+	padding-bottom: 20px;
+	padding-left: 5px;
+	padding-top: 5px;
+	margin: 15px;
+}
+
+.transform2{
+  text-transform: uppercase; /* con la propiedad uppercase, definimos que nuestra palabra se coloque en mayúscula */
+}
