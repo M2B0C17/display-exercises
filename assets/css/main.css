@@ -1,0 +1,23 @@
+.laborat1, .transform1, .es1{
+  font-family: 'Muli', sans-serif; /* colocamos la tipografía que queremos que tenga nuestro html1 */
+}
+
+.laborat1, .transform1{
+	background-color: yellow; /* a ambos div les colocamos el fondo de color amarillo */
+	padding-bottom: 20px; /* establecemos la anchura de la zona de relleno de la parte de abajo de ambos div */
+	padding-left: 10px; /* anchura de la zona de relleno izquierdo de ambos div */
+	padding-top: 5px; /* anchura de la zona de relleno de la parte de arriba de ambos div */
+  text-align: left; /* el texto se alinee hacia la izquierda */
+  font-size: 20px; /* establecemos el tamaño de las palabras */
+}
+.es1{
+	background-color: red;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-top: 5px;
+  font-size: 20px;
+}
+
+.transform1{
+  text-transform: uppercase; /* con la propiedad uppercase, definimos que nuestra palabra se coloque en mayúscula */
+}
